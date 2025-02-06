@@ -1,0 +1,18 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 35%;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
