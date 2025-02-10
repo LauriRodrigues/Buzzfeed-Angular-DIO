@@ -54,6 +54,21 @@ main {
 
 .quizzResult {
   width: 100%;
-  height: 100%;
-  background: #1F0539;
+  height: 30rem;
+  background: rgba(255, 255, 255, 0.29);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultTitle {
+  font-size: 3rem;
+}
+
+.result {
+  font-size: 2rem;
 }
