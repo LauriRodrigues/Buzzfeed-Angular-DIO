@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo DIO" title="DIO" src="images/DIOLogo.png" width="10%">
+  <img alt="Logo DIO" title="DIO" src="src/assets/images/DIOLogo.png" width="10%">
 </div>
 	
 <h4 align="center"> 
@@ -30,5 +30,5 @@
 
 <h4>💻 Desktop </h4>
 
-<img alt="Versão Desktop" title="Desktop - Questions" src="image/Desktop-Questions.png" width="90%">
-<img alt="Versão Desktop" title="Desktop - Result" src="image/Desktop-Result.png" width="90%">
+<img alt="Versão Desktop" title="Desktop - Questions" src="src/assets/images/Desktop-Questions.png" width="90%">
+<img alt="Versão Desktop" title="Desktop - Result" src="src/assets/images/Desktop-Result.png" width="90%">
