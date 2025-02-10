@@ -8,5 +8,4 @@ import { QuizzComponent } from '../../components/quizz/quizz.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
 }

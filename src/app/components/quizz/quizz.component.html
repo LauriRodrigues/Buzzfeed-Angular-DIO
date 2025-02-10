@@ -1,14 +1,22 @@
 <main>
-  <p class="quizzQuestion">Pergunta</p>
-  <div class="quizzOptions">
-    <button class="quizzOption">Opção</button>
-    <button class="quizzOption">Opção</button>
-    <button class="quizzOption">Opção</button>
-    <button class="quizzOption">Opção</button>
-  </div>
-  <div class="quizzResult">
-    <p class="resultTitle">O seu resultado é:</p>
-    <p class="result">Resultado</p>
-  </div>
+  @if(!finished) {
+    <p class="quizzQuestion">{{ questionSelected.question }}</p>
+    <div class="quizzOptions">
+      @for(option of questionSelected.options; track option.id) {
+        <button 
+          class="quizzOption" 
+          (click)="playerChoice(option.alias)"
+          (click)="nextStep()"
+          >{{ option.name }}</button>
+      }
+    </div>
+  }
+
+  @if(finished) {
+    <div class="quizzResult">
+      <p class="resultTitle">O seu resultado é:</p>
+      <p class="result">{{ answerSelected }}</p>
+    </div>
+  }
 </main>
 
